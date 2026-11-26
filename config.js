@@ -6,7 +6,7 @@ const CONFIG = {
     partnerName: "mugure",
     
     // Your name (optional, for signature)
-    yourName: "oseko (boy)",
+    yourName: "oseko",
     
     // Custom messages
     messages: {
