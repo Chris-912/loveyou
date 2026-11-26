@@ -248,11 +248,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     break;
                 case 'first-meeting':
                     createSparkles();
-                    showMemoryMessage(window.CONFIG.memoryMessages.firstMeeting || "Quety, u r my peace and every moment with u feels like i wanna spend my whole life w u 💫💕");
+                    showMemoryMessage(window.CONFIG.memoryMessages.firstMeeting || "mugure, u r my peace and every moment with u feels like i wanna spend my whole life w u 💫💕");
                     break;
                 case 'care':
                     createHeartRain();
-                    showMemoryMessage(window.CONFIG.memoryMessages.care || "Quety, u can never be replaced and u hold a position so strong in my life 💕");
+                    showMemoryMessage(window.CONFIG.memoryMessages.care || "mugure, u can never be replaced and u hold a position so strong in my life 💕");
                     break;
             }
         }

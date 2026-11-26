@@ -3,10 +3,10 @@
 
 const CONFIG = {
     // Partner's name (will be used throughout the website)
-    partnerName: "Quety",
+    partnerName: "mugure",
     
     // Your name (optional, for signature)
-    yourName: "himanshuuuu",
+    yourName: "oseko (boy)",
     
     // Custom messages
     messages: {
@@ -46,8 +46,8 @@ const CONFIG = {
     // Memory effect messages
     memoryMessages: {
         lateNight: "Those late nights talking with you are my favorite memories 🌙✨",
-        firstMeeting: "Quety, u r my peace and every moment with u feels like i wanna spend my whole life w u 💫💕",
-        care: "Quety, u can never be replaced and u hold a position so strong in my life 💕"
+        firstMeeting: "mugure, u r my peace and every moment with u feels like i wanna spend my whole life w u 💫💕",
+        care: "mugure, u can never be replaced and u hold a position so strong in my life 💕"
     }
 };
 
