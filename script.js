@@ -102,18 +102,28 @@ document.addEventListener('DOMContentLoaded', function() {
     const bgMusic = document.getElementById('bgMusic');
     let isPlaying = false;
 
+    // Log audio events for debugging
+    bgMusic.addEventListener('canplay', () => {
+        console.log('Audio: can play');
+    });
+    bgMusic.addEventListener('error', (e) => {
+        console.log('Audio error:', e);
+        musicToggle.textContent = '❌';
+    });
+
     musicToggle.addEventListener('click', function() {
         if (isPlaying) {
             bgMusic.pause();
             musicToggle.textContent = '🎵';
             isPlaying = false;
         } else {
+            bgMusic.load();
             bgMusic.play().then(() => {
                 musicToggle.textContent = '🔊';
                 isPlaying = true;
-            }).catch(() => {
+            }).catch((err) => {
+                console.log('Music play failed:', err);
                 musicToggle.textContent = '❌';
-                console.log('Music could not be played');
             });
         }
     });
